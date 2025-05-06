@@ -1,5 +1,5 @@
 {
-    "name": "php-mcp-server",
+    "name": "php-mcp-server-sdk",
     "dockerComposeFile": [
         "../compose.yaml",
         "./compose.override.yaml"

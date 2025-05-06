@@ -17,18 +17,30 @@ return ECSConfig::configure()
     ])
 
     ->withPhpCsFixerSets(
+        per: true,
+        perCS: true,
+        perCS10: true,
         perCS20: true,
         php83Migration: true,
         php84Migration: true,
+        psr1: true,
+        psr2: true,
+        psr12: true,
     )
 
     // add sets - group of rules
-    // ->withPreparedSets(
-    // arrays: true,
-    // namespaces: true,
-    // spaces: true,
-    // docblocks: true,
-    // comments: true,
-    // )
+    ->withPreparedSets(
+        arrays: true,
+        namespaces: true,
+        spaces: true,
+        docblocks: true,
+        comments: true,
+        psr12: true,
+        symplify: true,
+        controlStructures: true,
+        phpunit: true,
+        strict: true,
+        cleanCode: true,
+    )
 
 ;

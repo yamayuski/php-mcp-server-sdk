@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yamayuski\PhpMcpServer\Messages;
+namespace Yamayuski\PhpMcpServerSDK\Messages;
 
 interface JSONRPCMessageInterface
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Yamayuski\PhpMcpServer\Schema;
+namespace Yamayuski\PhpMcpServerSDK\Schema;
 
 class SchemaParser
 {
-    private const SCHEMA_VERSION = '2025-03-26';
+    // private const SCHEMA_VERSION = '2025-03-26';
 }
